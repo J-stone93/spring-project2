@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest // 컨테이너를 만들어주는 어노테이션이므로 없으면 빈(객체)을
+@SpringBootTest // (SpringBoot환경으로 만들어줌)컨테이너를 만들어주는 어노테이션이므로 없으면 빈(객체)을 담김
 public class RestaurantTest {
 	@Autowired // 컨테이너에서 빈(객체)을 찾아서 필드에 주입
 	Restaurant restaurant;
